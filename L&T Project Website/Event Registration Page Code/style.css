@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://st5.depositphotos.com/73189106/72059/i/450/depositphotos_720593388-stock-photo-abstract-technology-background-clubbing-nightlife.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(212, 255, 0);
+    width: 100%;
+    max-width: 400px;
+    background: url("https://st5.depositphotos.com/73189106/72059/i/450/depositphotos_720593388-stock-photo-abstract-technology-background-clubbing-nightlife.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fbff00;
+}
+
+label ,p{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #00ffeacd;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #4facfe;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #002aff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #7b00ff;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    background: #4facfe;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.back-btn:hover {
+    background: #0008ff;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .form-container {
+        padding: 15px;
+    }
+}
