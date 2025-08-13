@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #005fa3;
+}
+
+/* Hero Section */
+.hero {
+    background: url('../images/logo/hero-bg.jpg') center/cover no-repeat;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+}
+
+/* Speaker Section */
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.speaker-card {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.speaker-card:hover {
+    transform: translateY(-5px);
+}
+
+.speaker-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Agenda Section */
+.agenda ul {
+    list-style: none;
+    padding: 0;
+}
+
+.agenda li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Tickets Section */
+.tickets {
+    background: #eef5ff;
+    padding: 40px 20px;
+}
+
+/* Venue Section */
+.venue img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer .sponsors img {
+    width: 80px;
+    margin: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+}
