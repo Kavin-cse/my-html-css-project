@@ -1,0 +1,23 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+.hero {
+  background: url("https://via.placeholder.com/1600x600") center/cover no-repeat;
+  height: 100vh;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.hero .highlight {
+  color: #ffc107;
+}
+
+section h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+}
