@@ -1,0 +1,19 @@
+style
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-actions button {
+  margin-left: 5px;
+}
